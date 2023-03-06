@@ -1,0 +1,16 @@
+
+
+<div class = "container">
+
+  <% if flash[:name] %>
+        <div class="alert alert-success mt-4">
+            <%=   flash[:name] %>
+        </div>
+
+
+        <div class="alert alert-danger mt-4">
+            <%=   flash[:email] %>
+        </div>
+
+   <% end %>
+</div>
